@@ -23,6 +23,7 @@ import LoginTest from './react-native-login/components/Main';
 
 export default class extends React.Component {
   state = {
+    test:true,
     isLoading: true,
   };
   async componentDidMount() {
